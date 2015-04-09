@@ -1,0 +1,11 @@
+@font-face {
+    font-family: 'delicate';
+    src: url('GoodDelicate-webfont.eot');
+    src: url('GoodDelicate-webfont.eot?#iefix') format('embedded-opentype'),
+         url('GoodDelicate-webfont.woff2') format('woff2'),
+         url('GoodDelicate-webfont.woff') format('woff'),
+         url('GoodDelicate-webfont.ttf') format('truetype'),
+         url('GoodDelicate-webfont.svg#delicatedelicate') format('svg');
+    font-weight: normal;
+    font-style: normal;
+}

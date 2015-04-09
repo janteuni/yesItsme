@@ -6,19 +6,55 @@ body {
   font-size: 16px;
 }
 
-* {
-  box-sizing: border-box;
-}
-
 .first-section {
-  background: url('../../assets/pattern.png') repeat;
+  background: url('../../assets/images/pattern.svg') space;
   width: 90%;
-  height: 800px;
-  padding: 4em 4em 4em 10em;
-  margin: 0 auto;
+  height: 850px;
+  padding: 10em 10em 0 10em;
+  margin: 2em auto 0 auto;
   h1 {
     font-family: 'Delicate';
     font-size: 9em;
     color: $grey;
+    margin-bottom: 2em;
+  }
+  p {
+    display: flex;
+    justify-content: flex-end;
+  }
+  a:hover {
+    i {
+      background-color: darken($light-blue, 8);
+    }
+  }
+  i {
+    display: block;
+    width: 60px;
+    height: 60px;
+    margin: 5px;
+    border-radius: 100%;
+    text-align: center;
+    padding-top: 10px;
+    background-color: $light-blue;
+    color: white;
+    font-size: 2.5em;
+  }
+}
+
+@media screen and (max-width: 1200px) {
+  .first-section {
+    padding: 4em 5em 0 5em;
+  }
+}
+
+
+@media screen and (max-width: 800px) {
+  .first-section {
+    padding: 3em;
+    height: 400px;
+    h1 {
+      font-size: 5em;
+      margin-bottom: 1em;
+    }
   }
 }

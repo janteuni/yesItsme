@@ -103,6 +103,7 @@ gulp.task('watch', ['inject'], function () {
   });
 
   $.watch([
+    'clients/assets/images/*',
     'client/views',
     'client/views/**/*.html',
     'client/views/**/*.js',

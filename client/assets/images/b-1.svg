@@ -2893,16 +2893,16 @@ ICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICA=" transform="matrix(0.23 0 0 0.23 77
 		<polygon id="f1" fill="#90CAF9" points="221,507 256,507 256,539 221,539 238.381,523 		"/>
 
 		<animate xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="#f1"
-      id="anim1" attributeName="points" attributeType="XML"
+      id="a1" attributeName="points" attributeType="XML"
       from="221,507 256,507 256,539 221,539 238.381,523 		"
       to="221,504 256,507 256,539 218,532 238.381,520 		"
-      dur="1s" repeatCount="1" begin="0s;anim2.end" fill="freeze">
+      dur="1s" repeatCount="1" begin="0s;a2.end" fill="freeze">
     </animate>
     <animate xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="#f1"
-      id="anim2" attributeName="points" attributeType="XML"
+      id="a2" attributeName="points" attributeType="XML"
       from="221,504 256,507 256,539 218,532 238.381,520 		"
       to="221,507 256,507 256,539 221,539 238.381,523 		"
-      dur="1s" repeatCount="1" begin="anim1.end" fill="freeze">
+      dur="1s" repeatCount="1" begin="a1.end" fill="freeze">
     </animate>
 
 		<circle fill="#BBE4F9" cx="265.466" cy="521.172" r="9.93"/>
@@ -2920,16 +2920,16 @@ ICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICA=" transform="matrix(0.23 0 0 0.23 77
 		<polygon id="f2" fill="#FFECB3" points="221,550 256,550 256,582 221,582 238.381,566 		"/>
 
 		<animate xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="#f2"
-      id="anim3" attributeName="points" attributeType="XML"
+      id="a3" attributeName="points" attributeType="XML"
       from="221,550 256,550 256,582 221,582 238.381,566 		"
       to="218,546 256,550 256,582 216,582 238.381,566 		"
-      dur="1s" repeatCount="1" begin="0s;anim4.end" fill="freeze">
+      dur="1s" repeatCount="1" begin="0s;a4.end" fill="freeze">
     </animate>
     <animate xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="#f2"
-      id="anim4" attributeName="points" attributeType="XML"
+      id="a4" attributeName="points" attributeType="XML"
       from="218,546 256,550 256,582 216,582 238.381,566 		"
       to="221,550 256,550 256,582 221,582 238.381,566 		"
-      dur="1s" repeatCount="1" begin="anim3.end" fill="freeze">
+      dur="1s" repeatCount="1" begin="a3.end" fill="freeze">
     </animate>
 
 		<circle fill="#FFF8E1" cx="265.466" cy="563.661" r="9.93"/>
@@ -2943,16 +2943,16 @@ ICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICA=" transform="matrix(0.23 0 0 0.23 77
 		<polygon id="f3" fill="#9FA8DA" points="221,594 256,594 256,626 221,626 238.381,610 		"/>
 
 		<animate xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="#f3"
-      id="anim5" attributeName="points" attributeType="XML"
+      id="a5" attributeName="points" attributeType="XML"
       from="221,594 256,594 256,626 221,626 238.381,610 		"
       to="215,594 256,594 256,626 215,626 234,610 		"
-      dur="1s" repeatCount="1" begin="0s;anim6.end" fill="freeze">
+      dur="1s" repeatCount="1" begin="0s;a6.end" fill="freeze">
     </animate>
     <animate xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="#f3"
-      id="anim6" attributeName="points" attributeType="XML"
+      id="a6" attributeName="points" attributeType="XML"
       from="215,594 256,594 256,626 215,626 234,610 		"
       to="221,594 256,594 256,626 221,626 238.381,610 		"
-      dur="1s" repeatCount="1" begin="anim5.end" fill="freeze">
+      dur="1s" repeatCount="1" begin="a5.end" fill="freeze">
     </animate>
 
 
@@ -6860,8 +6860,27 @@ D9Bxjh3p3gieAAAAAElFTkSuQmCC" transform="matrix(0.111 0 0 0.111 206.5029 834.433
 </g>
 <g id="danone">
 	<rect x="116" y="652" fill="#152642" width="3" height="144"/>
-	<path fill="#243A66" d="M83,673H61.601c0,0,2.419,6.442,0,12.543c-1.756,4.427,3.08,10.767-0.414,16.18
+
+	<path id="d1" fill="#243A66" d="M83,673H61.601c0,0,2.419,6.442,0,12.543c-1.756,4.427,3.08,10.767-0.414,16.18
 		c-3.945,6.111,2.872,14.755,1.221,18.649c-2.15,4.327,4.787,10.447-0.903,14.78C62.042,735.364,83,735.959,83,735.959V673z"/>
+
+	<animate xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="#d1"
+    id="ad1" attributeName="d" attributeType="XML"
+    from="M83,673H61.601c0,0,2.419,6.442,0,12.543c-1.756,4.427,3.08,10.767-0.414,16.18
+          		c-3.945,6.111,2.872,14.755,1.221,18.649c-2.15,4.327,4.787,10.447-0.903,14.78C62.042,735.364,83,735.959,83,735.959V673z"
+    to="M78,670H61.601c0,0,2.419,6.442,0,12.543c-1.756,4.427,3.08,2-0.414,10
+        		c-3.945,6.111,2.872,14.755,1.221,18.649c-2.15,4.327,4.787,10.447-0.903,14.78C62.042,735.364,83,735.959,83,735.959V673z"
+    dur="1s" repeatCount="1" begin="0s;ad2.end" fill="freeze">
+  </animate>
+  <animate xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="#d1"
+    id="ad2" attributeName="d" attributeType="XML"
+    from="M78,670H61.601c0,0,2.419,6.442,0,12.543c-1.756,4.427,3.08,2-0.414,10
+                c-3.945,6.111,2.872,14.755,1.221,18.649c-2.15,4.327,4.787,10.447-0.903,14.78C62.042,735.364,83,735.959,83,735.959V673z"
+    to="M83,673H61.601c0,0,2.419,6.442,0,12.543c-1.756,4.427,3.08,10.767-0.414,16.18
+              c-3.945,6.111,2.872,14.755,1.221,18.649c-2.15,4.327,4.787,10.447-0.903,14.78C62.042,735.364,83,735.959,83,735.959V673z"
+    dur="1s" repeatCount="1" begin="ad1.end" fill="freeze">
+  </animate>
+
 	<rect x="75" y="677" fill="#243A66" width="47" height="64"/>
 	<circle fill="#3F5E8E" cx="98.969" cy="699.828" r="17.89"/>
 	<path fill-rule="evenodd" clip-rule="evenodd" fill="#36547F" d="M109.152,708.198c-0.659-0.959-0.775-0.55-1.389-1.479

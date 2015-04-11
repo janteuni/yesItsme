@@ -71,6 +71,17 @@ body {
   }
 }
 
+@media screen and (min-width: 1700px) {
+  .second-section {
+    #plane {
+      width: 600px;
+    }
+    #bus {
+      width: 350px;
+    }
+  }
+}
+
 @media screen and (max-width: 1200px) {
   .first-section {
     padding: 4em 5em 0 5em;
@@ -85,6 +96,11 @@ body {
     h1 {
       font-size: 5em;
       margin-bottom: 1em;
+    }
+  }
+  .second-section {
+    #bus {
+      width: 130px;
     }
   }
 }

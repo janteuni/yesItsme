@@ -66,6 +66,28 @@
   }
 }
 
+.four-section {
+  padding: 2em;
+  .contact {
+    display: flex;
+    width: 280px;
+    justify-content: center;
+    align-items: center;
+    margin: 0 auto;
+    p {
+      width: 100px;
+      font-family: 'Delicate';
+      font-size: 2.2em;
+      color: $grey;
+    }
+    .me {
+      width: 120px;
+      margin-right: 7px;
+    }
+  }
+  width: 100%;
+}
+
 @media screen and (min-width: 1700px) {
   .second-section {
     #plane {

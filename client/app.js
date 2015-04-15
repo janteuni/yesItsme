@@ -4,7 +4,7 @@ angular.module('perso', [
   'ngRoute',
   'ngAnimate'
 ])
-  .config(function ($routeProvider, $locationProvider, $httpProvider) {
+  .config(function ($routeProvider, $locationProvider) {
 
     $routeProvider
       .otherwise({
@@ -12,21 +12,11 @@ angular.module('perso', [
       });
 
     $locationProvider.html5Mode(true).hashPrefix('!');
-    $httpProvider.interceptors.push('authInterceptor');
 
 
   })
-
-  .factory('authInterceptor', function ($rootScope, $q, $location) {
-    return {
-      responseError: function (response) {
-        if (response.status === 404) {
-          $location.path('/');
-          return $q.reject(response);
-        }
-        else {
-          return $q.reject(response);
-        }
-      }
-    };
+  .run(function($rootScope, $location){
+    $rootScope.$on('notFound', function(){
+      $location.path('/');
+    });
   });

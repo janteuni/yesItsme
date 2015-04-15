@@ -1,11 +1,11 @@
 'use strict';
 
 angular.module('perso')
-  .factory('Project', function ($q) {
+  .factory('Project', function ($q, $rootScope) {
 
     var projects = [
       {
-        slug: "sushi-icon",
+        slug: "sushi-icons",
         name: "Sushicons",
         desc: "hahahahahahaha hahahahaha"
       }
@@ -19,20 +19,16 @@ angular.module('perso')
        * @returns {Promise}
        */
       getOne: function (slug) {
-        var len = projects.length;
-        var i = 0;
-        var found = false;
         var deferred = $q.defer();
 
-        for (; i < len; i++) {
-          if (projects[i].slug == slug) {
-            found = true;
-            deferred.resolve(projects[i]);
-          }
-        }
-        if (!found) {
-          console.log('Not found');
+        var index = projects.map(function(el) {
+          return el.slug;
+        }).indexOf(slug);
+        if (index === -1) {
           deferred.reject(404, "nonon");
+          $rootScope.$emit('notFound');
+        } else {
+          deferred.resolve(projects[index]);
         }
         return deferred.promise;
       }

@@ -63,7 +63,7 @@ preserveAspectRatio="xMinYMin meet" width="100%"
 	<path fill="#EFEFEF" d="M716.001,435.738c0,0,58.239,5.262,8.619,11.262C727.5,444,746.502,441.899,716.001,435.738z"/>
 	<rect x="684" y="319" fill="#EFEFEF" width="2" height="59"/>
 
-	<path id="drap-git" fill="#EFEFEF" d="M685.999,320.833c0,0,6.333,24.083-0.165,33.75c6.502-3,14.329-2.625,22.082,0.042
+	<path style="cursor: pointer" onclick="window.open('https://github.com/janteuni', '_blank')" id="drap-git" fill="#EFEFEF" d="M685.999,320.833c0,0,6.333,24.083-0.165,33.75c6.502-3,14.329-2.625,22.082,0.042
 		s17.393,1.688,21.072,0.021S740.666,345,740.666,345l-5.619-40c0,0-6.058,9.334-19.046,9.667c-4.77,0.122-16.332-1.667-23.001,1
 		C689.224,317.177,685.999,320.833,685.999,320.833z"/>
 
@@ -90,7 +90,7 @@ preserveAspectRatio="xMinYMin meet" width="100%"
     </animate>
 
 	<g>
-		<path fill="#898989" d="M704.104,324.176c3.069-3.164,6.785-4.746,11.145-4.746s8.073,1.582,11.145,4.746
+		<path style="cursor: pointer" onclick="window.open('https://github.com/janteuni', '_blank')" fill="#898989" d="M704.104,324.176c3.069-3.164,6.785-4.746,11.145-4.746s8.073,1.582,11.145,4.746
 			c3.069,3.164,4.605,6.973,4.605,11.426c0,3.516-1.009,6.68-3.023,9.492c-2.017,2.812-4.595,4.757-7.734,5.836h-0.281
 			c-0.562,0-0.844-0.281-0.844-0.844c0-0.047,0.011-0.575,0.035-1.582c0.022-1.007,0.035-1.934,0.035-2.777
 			c0-1.359-0.376-2.366-1.125-3.023c2.155-0.281,3.902-0.972,5.238-2.074c1.336-1.101,2.004-3.059,2.004-5.871
@@ -661,7 +661,7 @@ p8Qs8gAAABl0RVh0U29mdHdhcmUAQWRvYmUgSW1hZ2VSZWFkeXHJZTwAAAAASUVORK5CYII=" transf
 		<rect x="72" y="903" fill="#3A7EA2" width="17" height="4"/>
 	</g>
 	<g id="windows_1_">
-		<rect x="11" y="815" fill="#FFFFFF" width="38" height="48"/>
+		<rect style="cursor: pointer" onclick="window.open('https://www.behance.net/janteuni', '_blank')" x="11" y="815" fill="#FFFFFF" width="38" height="48"/>
 		<rect x="59" y="815" fill="#FFFFFF" width="38" height="48"/>
 		<rect x="106" y="815" fill="#FFFFFF" width="38" height="48"/>
 		<rect x="59" y="852" fill="#F467A1" width="38" height="11"/>
@@ -727,7 +727,7 @@ p8Qs8gAAABl0RVh0U29mdHdhcmUAQWRvYmUgSW1hZ2VSZWFkeXHJZTwAAAAASUVORK5CYII=" transf
 				S93.495,859.729,93.495,859.643z"/>
 		</g>
 
-			<image overflow="visible" width="1024" height="400" xlink:href="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAABAAAAAGQCAIAAAC/IYUwAAAAGXRFWHRTb2Z0d2FyZQBBZG9iZSBJ
+			<image style="cursor: pointer" onclick="window.open('https://www.behance.net/janteuni', '_blank')" overflow="visible" width="1024" height="400" xlink:href="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAABAAAAAGQCAIAAAC/IYUwAAAAGXRFWHRTb2Z0d2FyZQBBZG9iZSBJ
 bWFnZVJlYWR5ccllPAAAJphJREFUeNrs3T2MVUeaP+AzK0c4GFaCFJgMIuMh7gEiyPhIzV9AYDak
 SRlLgOQh7SZcTwBo+Kd8ZBDRmLgFRJAZSEFaHAyp9z1dbBtDd3M/TtX5eh61LO/sTPe959aten91
 qur8qTr1WwUAAIzDf7gEAAAgAAAAAAIAAAAgAAAAAAIAAAAgAAAAAAIAAAAgAAAAAAIAAAAgAAAA
@@ -931,7 +931,7 @@ AAAAgAAAAAAIAAAAgAAAAAAIAAAAgAAAAAAIAAAAwLr/FWAAcimMKYyRRkMAAAAASUVORK5CYII=" tr
 		<rect x="104" y="863" fill="#F2ECDD" width="42" height="4"/>
 		<polygon fill="#FCF6F0" points="11,815 11,825 36,848.302 49,848.524 49,839 36,828.25 42,828.5 28,815 		"/>
 		<polygon fill="#FCF6F0" points="106,815 106,825 134,855.946 139.25,837.75 117.75,815 		"/>
-		<g id="codepen">
+		<g  style="cursor: pointer" onclick="window.open('http://codepen.io/janteuni/', '_blank')" id="codepen">
 			<rect x="111" y="844" fill="#898989" width="23" height="19"/>
 			<rect x="109" y="841" fill="#9E9E9E" width="27" height="3"/>
 			<g>
@@ -1031,9 +1031,9 @@ gg==" transform="matrix(0.1074 0 0 0.1074 115.7495 846.8359)">
 		c1.248,1.388,1.683,2.961,3.585,3.727c3.61,1.454,5.174-1.763,7.299-3.722c0.863-0.796,2.103-1.116,3.238-1.004
 		c1.669,0.167,1.947,1.18,3.245,2.118c1.71,1.236,3.391,1.137,5.415,1.137"/>
 	<rect x="144" y="880" fill="#FFFFFF" width="79" height="73"/>
-	<rect x="147" y="882" fill="#F5F5E8" width="73" height="71"/>
+	<rect style="cursor: pointer" onclick="window.open('http://janteuni.github.io/alaplaj/', '_blank')" x="147" y="882" fill="#F5F5E8" width="73" height="71"/>
 
-		<image overflow="visible" width="562" height="437" xlink:href="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAjIAAAG1CAYAAADjkR6kAAAACXBIWXMAAAsTAAALEwEAmpwYAAAY
+		<image style="cursor: pointer" onclick="window.open('http://janteuni.github.io/alaplaj/', '_blank')" overflow="visible" width="562" height="437" xlink:href="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAjIAAAG1CAYAAADjkR6kAAAACXBIWXMAAAsTAAALEwEAmpwYAAAY
 QGlDQ1BQaG90b3Nob3AgSUNDIHByb2ZpbGUAAHjarXlXVBRts3V1mBkYhiHnnJPkDJJzzlEEBhhy
 cshgQhAJKoKIIqCCioIKBpKICVEMiKCCCRHBAIKKCiiC8l+Avt/3nvVfnLVOXfTaXb2ralc9vbpX
 9wMgxE9LTIxF2QHi4pMZ7jbm4r5+/uKkV4AABlRQA11aaFKimaurI/x/bX4IEACAR8q0xMRY+N8Z
@@ -1462,7 +1462,7 @@ TkSuQmCC" transform="matrix(0.0987 0 0 0.0987 156.7607 896.9297)">
 	</g>
 	<rect x="235" y="775" fill="#6D6C6B" width="3" height="11"/>
 	<rect x="140" y="775" fill="#6D6C6B" width="3" height="11"/>
-	<path fill="#EF9A9A" stroke="#6D6C6B" stroke-width="4" stroke-miterlimit="10" d="M244,763c0,6.627,0,13-10.051,13h-89.966
+	<path style="cursor: pointer" onclick="window.open('https://www.behance.net/gallery/24680719/Extra-Minute', '_blank')" fill="#EF9A9A" stroke="#6D6C6B" stroke-width="4" stroke-miterlimit="10" d="M244,763c0,6.627,0,13-10.051,13h-89.966
 		c-6.085,0-11.982,0-11.982-13v-38c0-11,5.897-11,11.982-11h89.966c6.085,0,10.051,0,10.051,11V763z"/>
 	<g>
 		<path d="M419.911,745.916h4.354v0.876h-3.31v2.687h3.059v0.863h-3.059V754h-1.044V745.916z"/>
@@ -1755,7 +1755,7 @@ TkSuQmCC" transform="matrix(0.0987 0 0 0.0987 156.7607 896.9297)">
 </g>
 <g id="art-school">
 	<rect x="837" y="677" fill="#F0F0D8" width="187" height="277"/>
-	<g id="logo-left">
+	<g style="cursor: pointer" onclick="window.open('http://www.ecole-art-aix.fr/', '_blank')" id="logo-left">
 		<rect x="823" y="689" fill="#6D6C6B" width="14" height="7"/>
 		<rect x="823" y="714" fill="#6D6C6B" width="14" height="7"/>
 		<g>
@@ -2570,7 +2570,7 @@ ICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICA=" transform="matrix(0.23 0 0 0.23 77
 
 		<polyline fill="none" stroke="#EF9A9A" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" stroke-miterlimit="10" points="
 		860,661 846,661 846,677 	"/>
-	<g id="shop">
+	<g style="cursor: pointer" onclick="window.open('http://www.ovall.fr/', '_blank')" id="shop">
 		<path fill="#FFFFFF" d="M1008,953H855c0,0,0-85.5,0-94c0-6.75,4.938-12,13.672-12s118.604,0,125.078,0
 			c8,0,14.25,5.748,14.25,12.499S1008,953,1008,953z"/>
 		<path fill="#FCF6F0" d="M868.672,847c9.232,0,24.643,0,24.643,0l22.749,28.693l3.266-12.356l64,89.663H946h-28.739l-23.946-28.267
@@ -2878,7 +2878,7 @@ ICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICA=" transform="matrix(0.23 0 0 0.23 77
 		<rect x="272" y="673" fill="#FFF8E1" width="196" height="152"/>
 		<rect x="234" y="824" fill="#FFF8E1" width="272" height="130"/>
 	</g>
-	<g id="header">
+	<g style="cursor: pointer" onclick="window.open('http://www.42.fr/', '_blank')" id="header">
 		<polygon fill="#51504E" points="367.778,568 388.378,568 346.98,609.58 388,611.146 388,650 368,650 368,630.028 325,629.6
 			325,609.015 		"/>
 		<polygon fill="#51504E" points="396,590.989 396,569 440,569 440,590.989 418,610.775 418,632.19 440,612.862 440,635 396,635
@@ -3643,7 +3643,7 @@ yZnM1Avo/ZGwghrP2Q3oQ/Zt57CqiSHEVqUm9OTidOvRE+PU0RPjVPLkpBXvd8EQYsOGDUOIDRuG
 EBs2bBhCbNgwhNiwYcMQYsOGIcSGDRuGEBs2DCE2bNgwhNiwYQixYcOGIcSGDUOIDRs2DCE2bBhC
 bNiwqWD/PwAKko6mgo5sWAAAAABJRU5ErkJggg==" transform="matrix(0.085 0.0691 -0.0691 0.085 247.2241 660.5117)">
 	</image>
-	<g id="sampleo_1_">
+	<g style="cursor: pointer" onclick="window.open('http://www.sampleo.com/', '_blank')" id="sampleo_1_">
 		<rect x="293" y="854" fill="#BBDEFB" width="98" height="15"/>
 
 			<image overflow="visible" width="212" height="71" xlink:href="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAANQAAABHCAYAAAB/LGn1AAAACXBIWXMAAAsTAAALEwEAmpwYAAAT
@@ -5983,7 +5983,7 @@ IEltYWdlUmVhZHlxyWU8AAAAAElFTkSuQmCC" transform="matrix(0.0293 0 0 0.0293 655.48
 	</g>
 
 </g>
-<g id="camino">
+<g style="cursor: pointer" onclick="window.open('http://www.caminovoyage.com/', '_blank')" id="camino">
 	<rect x="559" y="706" fill="#6D6C6B" width="2" height="33"/>
 	<rect x="689" y="706" fill="#6D6C6B" width="2" height="33"/>
 	<path fill="#FFFEFD" stroke="#6D6C6B" stroke-width="4" stroke-miterlimit="10" d="M700,714.5c0,9.333-0.332,12.5-11.5,12.5h-130
@@ -6627,7 +6627,7 @@ IEltYWdlUmVhZHlxyWU8AAAAAElFTkSuQmCC" transform="matrix(0.0293 0 0 0.0293 655.48
 		c-0.148-0.091-5.657-2.114-3.878,4.654c-0.194,0.15,1.714,6.148-3.724,1.081c-1.308-1.472-2.286-0.477-0.666,3.525
 		C668.736,690.757,669.604,692.075,669.604,692.075z"/>
 </g>
-<g id="ogundo">
+<g style="cursor: pointer" onclick="window.open('http://ogundo.com/', '_blank')" id="ogundo">
 	<path fill="#FFFFFF" d="M234,872h-20.526c-5.232,0-9.474-2.949-9.474-6.562v-32.167c0-3.614,4.242-6.271,9.474-6.271H234V872z"/>
 
 		<image overflow="visible" width="250" height="250" xlink:href="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAPoAAAD6CAIAAAAHjs1qAAAAA3NCSVQICAjb4U/gAAAAlnpUWHRS
@@ -6858,7 +6858,7 @@ wHLHxBBY7pgYAssdE0NguWNiCCx3TAyB5Y6JIbDcMTEEljsmhsByx8QQWO6YGALLHRNDYLljYoj/
 D9Bxjh3p3gieAAAAAElFTkSuQmCC" transform="matrix(0.111 0 0 0.111 206.5029 834.4336)">
 	</image>
 </g>
-<g id="danone">
+<g style="cursor: pointer" onclick="window.open('https://www.behance.net/gallery/24903901/Gravity', '_blank')" id="danone">
 	<rect x="116" y="652" fill="#152642" width="3" height="144"/>
 
 	<path id="d1" fill="#243A66" d="M83,673H61.601c0,0,2.419,6.442,0,12.543c-1.756,4.427,3.08,10.767-0.414,16.18

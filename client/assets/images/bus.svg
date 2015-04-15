@@ -1,5 +1,5 @@
 
-<svg version="1.1" id="Layer_1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px"
+<svg style="cursor: pointer" onclick="window.open('http://janteuni.github.io/trackJasmine/app/#/team', '_blank')" version="1.1" id="Layer_1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px"
 	 width="237px" height="153.335px" viewBox="0 0 237 153.335" enable-background="new 0 0 237 153.335" xml:space="preserve">
 <path fill="#009688" d="M237,137H0V12C0,5.373,5.373,0,12,0h213c6.627,0,12,5.373,12,12V137z"/>
 

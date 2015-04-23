@@ -1,10 +1,10 @@
 @font-face {
 	font-family: 'icomoon';
-	src:url('fonts/icomoon.eot?-qt9dfv');
-	src:url('fonts/icomoon.eot?#iefix-qt9dfv') format('embedded-opentype'),
-		url('fonts/icomoon.woff?-qt9dfv') format('woff'),
-		url('fonts/icomoon.ttf?-qt9dfv') format('truetype'),
-		url('fonts/icomoon.svg?-qt9dfv#icomoon') format('svg');
+	src:url('fonts/icomoon.eot?ldf76j');
+	src:url('fonts/icomoon.eot?#iefixldf76j') format('embedded-opentype'),
+		url('fonts/icomoon.woff?ldf76j') format('woff'),
+		url('fonts/icomoon.ttf?ldf76j') format('truetype'),
+		url('fonts/icomoon.svg?ldf76j#icomoon') format('svg');
 	font-weight: normal;
 	font-style: normal;
 }
@@ -23,28 +23,16 @@
 	-moz-osx-font-smoothing: grayscale;
 }
 
-.icon-behance1:before {
+.icon-codepen:before {
 	content: "\e600";
 }
 
-.icon-codepen:before {
+.icon-behance:before {
 	content: "\e601";
 }
 
-.icon-home:before {
-	content: "\e900";
-}
-
-.icon-envelop:before {
-	content: "\e945";
-}
-
-.icon-location:before {
-	content: "\e947";
-}
-
-.icon-search:before {
-	content: "\e986";
+.icon-dribbble:before {
+	content: "\eaa8";
 }
 
 .icon-github:before {
